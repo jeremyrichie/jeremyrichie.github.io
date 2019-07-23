@@ -10,18 +10,11 @@ right: 0.91%;
 top: 0%;
 bottom: 0%;
 
-#toon {
-  width: 576px;
-  height: 597px;
-  left: 978px;
-  top: 512px;
-  z-index: -1;
-}
 
 
 
 body {
-  background-color: powderblue;
+  background-color: 000;
 }
 h1 {
   color: blue;
