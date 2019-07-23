@@ -1,23 +1,17 @@
-body, html {
-  height: 100%;
-}
-
-.bg {
-  /* The image used */
+body {
   background-image: url("images/vortexbg.png");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+background-attachment: fixed;
 }
 
+position: absolute;
+left: -0.9%;
+right: 0.91%;
+top: 0%;
+bottom: 0%;
 
 div.toon {
-   content:images/jermpizza.png;
+   content:[images/jermpizza.png];
 }​
 position: absolute;
 width: 576px;
