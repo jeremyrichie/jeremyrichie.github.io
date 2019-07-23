@@ -10,14 +10,13 @@ right: 0.91%;
 top: 0%;
 bottom: 0%;
 
-div.toon {
-   content:(images/jermpizza.png);
-}​
-position: absolute;
-width: 576px;
-height: 597px;
-left: 978px;
-top: 512px;
+#toon {
+  width: 576px;
+  height: 597px;
+  left: 978px;
+  top: 512px;
+  z-index: -1;
+}
 
 
 
