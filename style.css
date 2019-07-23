@@ -11,15 +11,7 @@ top: 0%;
 bottom: 0%;
 
 
-/* toons */
-
-position: absolute;
-width: 576px;
-height: 597px;
-left: 978px;
-top: 512px;
-
-transform: rotate(90deg);
+<img src="[images/jermpizza.png]" alt="toon" style="width:100%">
 
 
 body {
