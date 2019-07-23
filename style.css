@@ -11,7 +11,7 @@ top: 0%;
 bottom: 0%;
 
 div.toon {
-   content:[images/jermpizza.png];
+   content:(images/jermpizza.png);
 }​
 position: absolute;
 width: 576px;
