@@ -11,6 +11,17 @@ top: 0%;
 bottom: 0%;
 
 
+<img src="jermpizza.png" alt="toons">
+
+position: absolute;
+width: 576px;
+height: 597px;
+left: 978px;
+top: 512px;
+
+transform: rotate(90deg);
+
+
 body {
   background-color: powderblue;
 }
