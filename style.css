@@ -4,12 +4,14 @@ body {
 background-attachment: fixed;
 }
 
-position: absolute;
-left: -0.9%;
-right: 0.91%;
-top: 0%;
-bottom: 0%;
 
+{<img src="images/jermpizza.png" alt="toon" style="width:50%">
+position: absolute;
+width: 576px;
+height: 597px;
+left: 978px;
+top: 512px;
+}
 
 
 
