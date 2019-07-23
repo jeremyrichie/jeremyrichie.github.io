@@ -15,11 +15,6 @@ body, html {
   background-size: cover;
 }
 
-position: absolute;
-left: -0.9%;
-right: 0.91%;
-top: 0%;
-bottom: 0%;
 
 div.toon {
    content:images/jermpizza.png;
