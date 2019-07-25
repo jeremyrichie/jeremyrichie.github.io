@@ -2,10 +2,9 @@
 body {
 
   background-image: url('images/vortexbg.png');
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: ;
+  max-width: 100%;
+  background-repeat: repeat;
+  background-attachment: static;
   background-color: #ED4C81;
 
 }
