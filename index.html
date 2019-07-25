@@ -5,23 +5,63 @@
 
 <style>
 
-#toon {
-	position: absolute;
-  width: 576px;
-  height: 597px;
-  left: 978px;
-  top: 512px;
-  z-index: -1;
+
+
+#sticker {
+	position: fixed; absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
 }
+
+/* BEGIN BREAKPOINT MOBILE */
+
+
+img {
+  width: 100%;
+}
+@media (max-width: 768px){
+
+  #title {
+  	position: absolute;
+      left: 0px;
+    top: 225px;
+    z-index: -2;
+
+}
+    img {
+      width: 100%;
+    }
+    @media (max-width: 768px){
+
+    #toon {
+    	position: fixed; absolute;
+      left: 0px;
+      top: 450px;
+      z-index: -1;
+}
+
+/* END BREAKPOINT MOBILE */
+
+
+
+
+
 </head>
 
-<body>
+
 </style>
 
 
+<body>
 
+<div id="sticker"><a href=http://dribbble.com/jeremyrichie target=new><img src=images/sticker.png><border=0></a></div>
 <div id="toon"><img src=images/jermpizza.png><border=0></div>
-
+<div id="title"><img src=images/nametitle.png><border=0></div>
 
 </body>
+
+
+
+
 </html>
