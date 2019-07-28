@@ -6,15 +6,16 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: #ED4C81;
 }
 
-<body scroll="no" style="overflow: hidden">
+<body scroll="yes" style="overflow: hidden">
 
 
 
 
 body {
-  background-color: #ED4C81;
+
 }
 h1 {
   color: #000;
