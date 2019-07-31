@@ -39,7 +39,7 @@ body {
 #splash {
   position: fixed;
    bottom: -5px;
-    left: -175px;
+    left: 0px;
    max-width: 1000px;
    min-width: 1000px;
      z-index: 2;

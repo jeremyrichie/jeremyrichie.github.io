@@ -40,7 +40,7 @@ body {
   position: fixed;
    bottom: -5px;
     left: -350px;
-   max-width: 1000px;
+   max-width: 375px;
    min-width: 1750px;
      z-index: 2;
   }
