@@ -12,7 +12,42 @@ html {
 <body scroll="yes" style="overflow: hidden">
 
 
+body {
+  width: 80%;
+  margin: 0 auto;
+  }
 
+
+#sticker {
+	position: fixed; absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+
+#splash {
+  position: absolute;
+   bottom: -15px;
+   width: 100%;
+   height: 75%
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 700px;
+   min-width: 100px;
+  }
+
+#insta {
+  position: rel;
+   bottom: -15px;
+   width: 100%;
+   height: 50%
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 300px;
+   min-width: 100px;
+   z-index: 2;
+ }
 body {
 
 }

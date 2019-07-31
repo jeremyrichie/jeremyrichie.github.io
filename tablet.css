@@ -1,0 +1,56 @@
+
+
+html {
+  background: url('images/vortexbg.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #ED4C81;
+}
+
+<body scroll="no-scroll" style="overflow: hidden">
+
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  }
+
+
+#sticker {
+	position: fixed;
+  left: 0px;
+  top: 0px;
+  max-width: 200px;
+  min-width: 200px;
+  z-index: 4;
+}
+
+#title {
+  position: fixed;
+   top: 0px;
+   left: 0px;
+   max-width: 1000px;
+   min-width: 1000px;
+     z-index: 1;
+  }
+
+#splash {
+  position: fixed;
+   bottom: -5px;
+    left: -175px;
+   max-width: 1000px;
+   min-width: 1000px;
+     z-index: 2;
+  }
+
+#insta {
+  position: fixed;
+   left: 200px;
+   bottom: -3px;
+   width: 100%;
+   max-width: 500px;
+   min-width: 325px;
+   z-index: 3;
+ }
