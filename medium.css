@@ -1,13 +1,13 @@
 
 
-html {
-  background: url('images/vortexbg.png') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-color: #ED4C81;
+
+<script type="text/javascript">
+<!--
+if (screen.width <= 699) {
+document.location = "http://dribbble.com/jeremyrichie";
 }
+//-->
+</script>
 
 <body scroll="no-scroll" style="overflow: hidden">
 
@@ -29,28 +29,37 @@ body {
 
 #title {
   position: fixed;
-   top: 25px;
-   left: 0px;
+   top: 100px;
+   left: -20px;
    max-width: 1000px;
-   min-width: 1000px;
+   min-width: 1200px;
      z-index: 1;
   }
 
 #splash {
   position: fixed;
-   bottom: -5px;
-    left: -350px;
-   max-width: 1000px;
-   min-width: 1750px;
+   bottom: -30px;
+    left: 900px;
+   max-width: 375px;
+   min-width: 1200px;
      z-index: 2;
   }
 
 #insta {
   position: fixed;
-   left: 200px;
+   left: 1200px;
    bottom: -3px;
    width: 100%;
-   max-width: 500px;
-   min-width: 325px;
+   max-width: 375px;
+   min-width: 275px;
    z-index: 3;
+ }
+
+ #bg {
+ 	position: fixed;
+   left: -600px;
+   top: -50px;
+   max-width: 375px;
+   min-width: 3000px;
+   z-index: -1;
  }
