@@ -1,0 +1,22 @@
+
+
+html {
+  background: url('images/storefront.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #ED4C81;
+}
+
+<body scroll="yes" style="overflow: hidden">
+
+
+#sticker {
+	position: absolute;
+  left: 0px;
+  top: 500px;
+  max-width: 200px;
+  min-width: 200px;
+  z-index: 4;
+}
